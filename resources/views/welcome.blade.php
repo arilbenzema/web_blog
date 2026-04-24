@@ -1,44 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laravel Blog</title>
+@extends('layouts.app')
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+<!-- Main Content -->
+@section('content')
+<section class="bg-light text-center py-5">
   <div class="container">
-    <a class="navbar-brand fw-bold" href="#">
-      <img src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600" height="30">
-    </a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarMenu">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Marketplace</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Company</a></li>
-      </ul>
-
-      <a href="#" class="btn btn-outline-dark btn-sm">Log in →</a>
-    </div>
-  </div>
-</nav>
-
-<!-- Hero Section -->
-<section class="bg-light text-center" style="padding-top:120px; padding-bottom:120px;">
-  <div class="container">
+    <div class="bg-body-tertiary p-5 text-center rounded">
 
     <div class="mb-4">
       <span class="badge bg-light text-dark border">
@@ -76,7 +43,7 @@
 
     <!-- Header -->
     <div class="row mb-4">
-      <div class="col-lg-6">
+      <div class="col-lg-12 text-center">
         <h2 class="display-5 fw-semibold text-dark">From the blog</h2>
         <p class="text-muted">Learn how to grow your business with our expert advice.</p>
       </div>
@@ -209,7 +176,6 @@
             <small class="text-muted">Director of Product</small>
           </div>
         </div>
-
       </div>
 
     </div>
@@ -218,10 +184,7 @@
 
 </div>
 </section>
+@endsection
 
 
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-</body>
-</html>
