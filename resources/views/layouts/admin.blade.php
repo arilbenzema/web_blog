@@ -6,7 +6,9 @@
     <title>Laravel Blog</title>
 
     <!-- Bootstrap CSS -->
+
     <script src="https://unpkg.com/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 
     <!-- Font Awesome (WAJIB untuk icon) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -25,5 +27,4 @@
 
   <!-- Footer -->
   <x-footer />
-
 

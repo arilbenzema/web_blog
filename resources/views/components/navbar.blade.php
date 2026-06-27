@@ -14,15 +14,10 @@
         <li class="nav-item"><a class="nav-link {{ request()->routeIs('welcome') ? 'fw-bold' : '' }}" href="{{ route('welcome') }}">Home</a></li>
         <li class="nav-item"><a class="nav-link {{ request()->routeIs('about') ? 'fw-bold' : '' }}" href="{{ route('about') }}">About</a></li>
         <li class="nav-item"><a class="nav-link {{ request()->routeIs('marketplace') ? 'fw-bold' : '' }}" href="{{ route('marketplace') }}">Marketplace</a></li>
-        <li class="nav-item"><a class="nav-link {{ request()->routeIs('company') ? 'fw-bold' : '' }}" href="{{ route('company') }}">Company</a></li>
         <li class="nav-item"><a class="nav-link {{ request()->routeIs('posts.index') ? 'fw-bold' : '' }}" href="{{ route('posts.index') }}">Blog Posts</a></li>
-
       </ul>
 
       <a href="#" class="btn btn-outline-dark btn-sm">Log in →</a>
     </div>
   </div>
 </nav>
-
-
-
