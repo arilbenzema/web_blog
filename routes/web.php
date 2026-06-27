@@ -10,5 +10,14 @@ Route::get('/about', function () {
     return view('about');
 })->name('about');
 
+Route::get('/marketplace', function () {
+    return view('marketplace');
+})->name('marketplace');
 
-awdawdawdawdawdgit init
+Route::get('/company', function () {
+    return view('company');
+})->name('company');
+
+Route::get('/posts', function () {
+    return view('posts.index');
+})->name('posts.index');

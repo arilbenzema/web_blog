@@ -1,52 +1,19 @@
 @extends('layouts.app')
 
-<!-- Main Content -->
+@section('title' , 'Blog Posts')
+
 @section('content')
-
-<section class="bg-light text-center py-5">
-  <div class="container">
-
-    <div class="bg-body-tertiary p-5 text-center rounded">
-
-    <div class="mb-4">
-      <span class="badge bg-light text-dark border">
-        Announcing our next round of funding.
-        <a href="#" class="text-primary fw-semibold text-decoration-none">Read more →</a>
-      </span>
-    </div>
-
-    <h1 class="display-4 fw-bold mb-4">
-      Data to enrich your online business
-    </h1>
-
-    <p class="lead text-muted mb-5">
-      Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
-      Elit sunt amet fugiat veniam occaecat.
-    </p>
-
-    <div class="d-flex justify-content-center gap-3">
-      <a href="#" class="btn btn-primary btn-lg">
-        Get started
-      </a>
-
-      <a href="#" class="btn btn-link fw-semibold text-dark text-decoration-none">
-        Learn more →
-      </a>
-    </div>
-
-  </div>
-</section>
 
 <!-- LETAK CODE BOOTSTRAP BLOG DI SINI -->
 
-<section class="bg-w py-5">
+<section class="bg-w py-5 mt-5">
   <div class="container">
 
     <!-- Header -->
     <div class="row mb-4">
       <div class="col-lg-12 text-center">
-        <h2 class="display-5 fw-semibold text-dark">From the blog</h2>
-        <p class="text-muted">Learn how to grow your business with our expert advice.</p>
+        <h2 class="display-5 fw-semibold text-dark">Blog Posts</h2>
+        <p class="text-muted">Platform pembelajaran & pengaturcaraan.</p>
       </div>
     </div>
 
@@ -54,7 +21,7 @@
 <div class="row g-4 border-top pt-4 mt-5">
 
   <!-- Card 1 -->
-  <div class="col-lg-4">
+  <div class="col-12">
 
     <div class="card h-100 shadow-sm border-0 bg-light">
 
@@ -62,7 +29,7 @@
 
         <div class="d-flex align-items-center gap-2 small text-muted mb-2">
           <time>Mar 16, 2020</time>
-          <span class="badge rounded-pill bg-light text-dark">Marketing</span>
+          <span class="badge rounded-pill text-primary bg-primary-subtle">Marketing</span>
         </div>
 
         <h5 class="fw-semibold">
@@ -98,7 +65,7 @@
 
 
   <!-- Card 2 -->
-  <div class="col-lg-4">
+  <div class="col-12">
 
     <div class="card h-100 shadow-sm border-0 bg-light">
 
@@ -106,7 +73,7 @@
 
         <div class="d-flex align-items-center gap-2 small text-muted mb-2">
           <time>Mar 10, 2020</time>
-          <span class="badge rounded-pill bg-light text-dark">Sales</span>
+          <span class="badge rounded-pill text-success bg-success-subtle">Sales</span>
         </div>
 
         <h5 class="fw-semibold">
@@ -142,7 +109,7 @@
 
 
   <!-- Card 3 -->
-  <div class="col-lg-4">
+  <div class="col-12">
 
     <div class="card h-100 shadow-sm border-0 bg-light">
 
@@ -150,7 +117,7 @@
 
         <div class="d-flex align-items-center gap-2 small text-muted mb-2">
           <time>Feb 12, 2020</time>
-          <span class="badge rounded-pill bg-light text-dark">Business</span>
+          <span class="badge rounded-pill text-info bg-info-subtle">Business</span>
         </div>
 
         <h5 class="fw-semibold">
@@ -186,7 +153,5 @@
 </div>
 </section>
 
+
 @endsection
-
-
-
